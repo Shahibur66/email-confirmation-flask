@@ -10,7 +10,7 @@ Confirmation link from Gmail using flask mail
 
 
 2. Configuration <br>
-     `MAIL_SERVER='smtp.gmail.com'` #mail server default gmail <br>
+     `MAIL_SERVER='smtp.gmail.com'` # mail server default gmail <br>
      `MAIL_USERNAME='your mail server username'` <br>
      `MAIL_PASSWORD='your mail server password'` <br>
      `MAIL_PORT=465` <br>
