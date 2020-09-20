@@ -15,7 +15,7 @@ def index():
 	if request.method == 'POST':
 		recipient=request.form.get('email')
 		print('email:',recipient)
-		sender='Your Email Username'
+		sender='your mail server username'
 		token = urlSTS.dumps(recipient, salt='email-confirm')
 		msg = Message('Confirm Email', sender=sender, recipients=[recipient])
 		link = url_for('confirm_email', token=token, _external=True)
